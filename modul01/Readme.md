@@ -7,8 +7,8 @@
 | **Nama** | Hikam Putera Perdana |
 | **NIM** | 108072500116 |
 | **Kelas** | IF-05-04 |
-| **Asisten Praktikum** |  |
-| **Tanggal Praktikum** |  |
+| **Asisten Praktikum** | Nuevalen Refitra Alswando |
+| **Tanggal Praktikum** | 02-10-2026 |
 
 ---
 
@@ -46,7 +46,7 @@ $ make
 **Hasil:** 
 Proses `make` akan mengompilasi seluruh *source code* C menjadi *image* bernama `xinu.elf`. Sistem juga secara otomatis menyalin *image* tersebut ke direktori server TFTP (`/srv/tftp/xinu.boot`) agar siap diunduh oleh *Backend VM*.
 
-![Terminal Compile Xinu](assets/dummy.png)
+![Terminal Compile Xinu](https://github.com/Phospenice/sisop-praktikum/blob/main/modul01/1.jpg?raw=true)
 
 *Gambar 1: Proses kompilasi source code Xinu menggunakan perintah `make` pada Development-System VM.*
 
@@ -57,7 +57,7 @@ Selanjutnya, **Backend VM** dijalankan. Karena Backend VM tidak memiliki hardisk
 3. Backend VM mengunduh file `xinu.boot` melalui protokol TFTP.
 4. Xinu OS berhasil dimuat ke memori dan berjalan.
 
-![Booting Backend VM](assets/dummy.png)
+![Booting Backend VM](https://github.com/Phospenice/sisop-praktikum/blob/main/modul01/2.jpg?raw=true)
 
 *Gambar 2: Tampilan Backend VM saat melakukan booting melalui jaringan (PXE) dan memuat GRUB.*
 
@@ -71,7 +71,7 @@ $ sudo minicom
 **Hasil:** 
 Terminal Development-System kini terhubung langsung ke *console* Xinu di Backend VM. Prompt terminal berubah dari `xinu@xinu-develop-end:$` menjadi **`xsh$`**, yang menandakan bahwa praktikan kini berada di dalam *Xinu Shell*.
 
-![Koneksi Minicom](assets/dummy.png)
+![Koneksi Minicom](https://github.com/Phospenice/sisop-praktikum/blob/main/modul01/3.jpg?raw=true)
 
 *Gambar 3: Koneksi berhasil melalui Minicom, ditandai dengan munculnya prompt `xsh$`.*
 
@@ -82,7 +82,7 @@ Pada prompt `xsh$`, praktikan dapat memberikan perintah langsung ke kernel Xinu.
 xsh$ help
 ```
 
-![Perintah Help Xinu](assets/dummy.png)
+![Perintah Help Xinu](https://github.com/Phospenice/sisop-praktikum/blob/main/modul01/4.jpg?raw=true)
 
 *Gambar 4: Output dari perintah `help` yang menampilkan daftar command bawaan Xinu OS.*
 

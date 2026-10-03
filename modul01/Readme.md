@@ -4,11 +4,11 @@
 ### Identitas Praktikan
 | Item | Keterangan |
 |------|------------|
-| **Nama** | Nuevalen Refitra Alswando |
-| **NIM** | 103072430008 |
-| **Kelas** | IF-04-01 |
-| **Asisten Praktikum** | [Isi Nama Asisten Anda] |
-| **Tanggal Praktikum** | [Isi Tanggal Praktikum] |
+| **Nama** | Hikam Putera Perdana |
+| **NIM** | 108072500116 |
+| **Kelas** | IF-05-04 |
+| **Asisten Praktikum** |  |
+| **Tanggal Praktikum** |  |
 
 ---
 
